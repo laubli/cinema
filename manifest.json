@@ -1,0 +1,19 @@
+{
+  "name": "cinema",
+  "version": "1.0.0",
+  "description": "application de recherche de film dans un cinema",
+  "main": "index.js",
+  "start_url": "/",
+  "author": "laureline blivet",
+  "orientation": "portrait",
+  "theme_color": "#202124",
+  "background_color": "#202124",
+  "license": "ISC",
+  "icons": [
+    {
+      "src": "img/logo.png",
+      "sizes": "572x348",
+      "type": "image/png"
+    }
+  ]
+}
