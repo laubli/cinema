@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./index.css"/>
+        <link rel="manifest" href="./manifest.json" />
+        <link rel="apple-touch-icon" href="./img/logo.png" />
+        <link rel="manifest" href="./manifest.json" crossorigin="use-credentials">
+        <script src="./index.js"></script>
+        <script src="./app.js"></script>
+        <script src="./sw.js"></script>
+        <title>Cinema</title>
+    </head>
+    <body>
+        <h1>Watch Watch</h1>
+        <div class="film">            
+            <input type="text" id="name" name="name" placeholder="Entrer le nom d'un film" />
+            <input type="button" id="rechercher" name="rechercher" value="Rechercher" onclick="rechercher()" />
+        </div>
+        <div id="resultat">
+            <img class="logo" src="./img/logo.png" alt="Logo Watch Watch" />
+        </div>
+    </body>
+</html>
